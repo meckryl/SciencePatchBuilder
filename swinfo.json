@@ -1,0 +1,29 @@
+{
+    "spec": "2.0",
+    "mod_id": "meckryl_SciencePatch",
+    "author": "meckryl",
+    "name": "SciencePatch",
+    "description": "Does something",
+    "source": "",
+    "version": "0.1.0",
+    "ksp2_version": {
+        "min": "0.1.5",
+        "max": "*"
+    },
+    "dependencies": [
+        {
+            "id": "com.github.x606.spacewarp",
+            "version": {
+                "min": "1.5.0",
+                "max": "*"
+            }
+        },
+        {
+            "id": "PatchManager",
+            "version": {
+                "min": "0.4.0",
+                "max": "*"
+            }
+        }
+    ]
+}

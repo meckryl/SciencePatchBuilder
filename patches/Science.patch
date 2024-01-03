@@ -1,0 +1,12 @@
+@use "builtin:dictionary";
+@use "builtin:list";
+@patch science_region;
+
+:json science_region {
+	@if $$BodyName == Kerbin {
+		Regions[0]: {"Id": "KerbinGrasslands", "AtmosphereScalar": 1.0, "SplashedScalar": -1.0, "LandedScalar": 3.0, "MapId": 0};
+	}
+	@if $$BodyName == Mun {
+		SituationData["HighOrbitScalar"]: 50.0;
+	}
+}
